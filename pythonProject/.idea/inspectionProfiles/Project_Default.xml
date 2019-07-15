@@ -5,6 +5,10 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="gaodingAppUIAutoTest.testMain.testCase" />
+          <option value="poco.AndroidUiautomationPoco" />
+          <option value="gaodingAppUIAutoTest.testair.testSwitchRatioAndSavePhoto" />
+          <option value="gaodingAppUIAutoTest.testair.testAddMacaicAndSavePhoto" />
+          <option value="gaodingAppUIAutoTest.testair.testair" />
         </list>
       </option>
     </inspection_tool>

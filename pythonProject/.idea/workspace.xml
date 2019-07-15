@@ -2,15 +2,385 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2509dbf7-755d-4fd3-b5a7-98a7aa5932d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/CommonTestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/testAddMacaicAndeSavePhoto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/conf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/conf/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/log/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/testCaseSuite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/testair.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/aircv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/cal_confidence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/keypoint_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/keypoint_matching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/keypoint_matching_contrib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/sift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/template_matching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/aircv/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/cli/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/cli/info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/cli/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/cli/runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/adb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/android.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/constant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/ime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/javacap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/minicap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/minitouch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/recorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/rotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/adb/linux/adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/adb/linux_arm/adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/adb/mac/adb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/adb/windows/AdbWinApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/adb/windows/AdbWinUsbApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/adb/windows/adb.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/apks/RotationWatcher.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/apks/Yosemite.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/arm64-v8a/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/arm64-v8a/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/arm64-v8a/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/arm64-v8a/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/armeabi-v7a/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/armeabi-v7a/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/armeabi-v7a/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/armeabi-v7a/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/armeabi/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/armeabi/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/Android.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/.rsync-filter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/Android.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/include/Minicap.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/include/mcdebug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-10/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-14/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-14/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-15/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-15/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-16/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-16/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-17/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-17/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-18/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-18/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-19/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-19/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-21/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-22/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-23/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-24/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-25/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-26/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-27/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-28/arm64-v8a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-28/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-28/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-28/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/libs/android-9/armeabi-v7a/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_16.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_17.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_18.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_19.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_21.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_22.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_23.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_24.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_25.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_26.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_27.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_28.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/minicap_9.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/ConsumerBase.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/ConsumerBase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/CpuConsumer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/aosp/src/override-19/CpuConsumer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/minicap-shared/mock/Minicap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/mips/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/mips/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/mips64/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/mips64/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/x86/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/x86/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/x86/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/x86/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/x86/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/x86_64/minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/x86_64/minicap-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/x86_64/minicap.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/x86_64/minitouch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/static/stf_libs/x86_64/minitouch-nopie" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/android/yosemite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/cv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/device.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/ios/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/ios/constant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/ios/fake_minitouch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/ios/instruct_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/ios/ios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/ios/ios_minicap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/ios/minicap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/ios/rotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/linux/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/linux/linux.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/win/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/win/screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/win/win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/css/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/css/monokai_sublime.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/css/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/fonts/SourceHanSansCN-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/image/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/image/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/image/broken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/image/target.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/js/echarts/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/js/echarts/pfm_charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/js/echarts/shine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/js/highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/js/jquery-lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/js/langpack/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/js/lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/log_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/report/report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/apkparser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/apkparser/apk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/apkparser/axmlparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/apkparser/axmlprinter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/apkparser/bytecode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/apkparser/stringblock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/apkparser/typeconstants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/logwraper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/nbsp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/resolution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/safesocket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/selenium_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/snippet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/transform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/acceleration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/agent.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/android/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/android/lib/pocoservice-debug-androidTest.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/android/lib/pocoservice-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/android/uiautomation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/android/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/android/utils/installation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/cocosjs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/cocosjs/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/cocosjs/test/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/ios/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/netease/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/netease/internal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/netease/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/osx/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/osx/osxui_poco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/osx/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/osx/sdk/OSXUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/osx/sdk/OSXUIDumper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/osx/sdk/OSXUIFunc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/osx/sdk/OSXUINode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/osx/sdk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/qt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/std/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/std/attributor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/std/dumper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/std/inputs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/std/screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/std/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/std/test/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/device.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/buttons_and_labels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/click.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/drag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/exception1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/exception2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/exception3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/frozen_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/local_positioning1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/local_positioning2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/local_positioning3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/long_click.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/overview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/scroll1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/scroll2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/wait_all_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/test/tutorial/wait_any_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/unity3d/unity3d_poco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/windows/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/windows/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/windows/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/windows/sdk/WindowsUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/windows/sdk/WindowsUIDumper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/windows/sdk/WindowsUINode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/windows/sdk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/windows/windowsui_poco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/freezeui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/freezeui/hierarchy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/freezeui/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/gesture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/pocofw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/pocofw.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/proxy.pyi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/AbstractDumper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/AbstractNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/Attributor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/DefaultMatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/Selector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/interfaces/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/interfaces/command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/interfaces/hierarchy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/interfaces/input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/interfaces/screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/std/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/std/protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/std/rpc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/std/rpc/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/std/rpc/reactor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/std/transport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/airtest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/airtest/input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/airtest/report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/airtest/screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/device.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/hrpc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/hrpc/hierarchy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/hrpc/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/hunter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/hunter/command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/measurement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/multitouch_gesture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/net/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/net/stdbroker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/net/transport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/net/transport/simple_wss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/net/transport/tcp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/net/transport/ws.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/query_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/regulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/backend/django.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/backend/flask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/jsonrpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/jsonrpc1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/jsonrpc2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_backend_django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_backend_django/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_backend_django/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_backend_django/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_backend_flask/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_backend_flask/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_bug29.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_examples20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_jsonrpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_jsonrpc1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_jsonrpc2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_jsonrpc_errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/tests/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/jsonrpc/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/rpcclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/simplerpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/transport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/transport/interfaces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/transport/tcp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/transport/tcp/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/transport/tcp/protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/transport/tcp/safetcp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/transport/ws/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/transport/ws/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/simplerpc/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/suppression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/track.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/poco/utils/vector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaodingAppUIAutoTest/Helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/Helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaodingAppUIAutoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gaodingAppUIAutoTest/testCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/testCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gaodingAppUIAutoTest/testMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/gaodingAppUIAutoTest/testMain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDemo/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDemo/testmainmanpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDemo/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDemo1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaodingAppUIAutoTest/testCase/switchRatioAndSavePhoto/air/tpl1562829085071.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gaodingAppUIAutoTest/testMain.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,32 +390,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/testCase.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/testair.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-788">
-              <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="198">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/testMain.py">
+        <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/conf/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="198">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/testCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/testCaseSuite.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/CommonTestRunner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
-                <element signature="e#24#46#0" expanded="true" />
+                <element signature="e#0#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/uiTest/demo.air/demo.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="132">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +449,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/Helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
+            <state relative-caret-position="44">
               <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/airtest/cli/runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/compat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -69,6 +492,13 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sleep</find>
+      <find>assert_exists</find>
+      <find>airpath</find>
+      <find>getAirPath</find>
+      <find>run_air</find>
+    </findStrings>
     <dirStrings>
       <dir>C:\Git\notebook\pythonProject\gaodingAppUIAutoTest</dir>
     </dirStrings>
@@ -87,7 +517,14 @@
         <option value="$PROJECT_DIR$/testDemo/test.py" />
         <option value="$PROJECT_DIR$/gaodingAppUIAutoTest/Helper.py" />
         <option value="$PROJECT_DIR$/gaodingAppUIAutoTest/testCase.py" />
+        <option value="$PROJECT_DIR$/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/testSwitchRatioAndSavePhoto.py" />
+        <option value="$PROJECT_DIR$/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/testair.py" />
+        <option value="$PROJECT_DIR$/gaodingAppUIAutoTest/testair.py" />
+        <option value="$PROJECT_DIR$/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/testAddMacaicAndeSavePhoto.py" />
+        <option value="$PROJECT_DIR$/gaodingAppUIAutoTest/conf/config.py" />
         <option value="$PROJECT_DIR$/gaodingAppUIAutoTest/testMain.py" />
+        <option value="$PROJECT_DIR$/gaodingAppUIAutoTest/CommonTestRunner.py" />
+        <option value="$PROJECT_DIR$/gaodingAppUIAutoTest/start.py" />
       </list>
     </option>
   </component>
@@ -115,6 +552,220 @@
               <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
               <item name="gaodingAppUIAutoTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gaodingAppUIAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="air" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="airtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="airtest" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="pythonwin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="airtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="airtest" type="462c0819:PsiDirectoryNode" />
+              <item name="cli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="sdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="std" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="std" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="airtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="airtest" type="462c0819:PsiDirectoryNode" />
+              <item name="cli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="sdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="std" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="poco" type="462c0819:PsiDirectoryNode" />
+              <item name="sdk" type="462c0819:PsiDirectoryNode" />
+              <item name="std" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (pythonProject) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="win32" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -125,10 +776,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/uiTest/demo.air/demo.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\gaodingAppTest\pythonProject\venv\Lib\site-packages" />
+      <recent name="C:\Python\Lib\site-packages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -142,30 +799,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testMain (1)">
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:/uiTest/demo.air" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:/uiTest/demo.air/demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.start">
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,30 +812,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gaodingAppUIAutoTest/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testDemo/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gaodingAppUIAutoTest/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +834,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gaodingAppUIAutoTest/testMain.py" />
+      <option name="SCRIPT_NAME" value="C:\Git\gaodingAppTest\pythonProject\gaodingAppUIAutoTest\CommonTestRunner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,13 +865,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testSwitchRatioAndSavePhoto" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/testSwitchRatioAndSavePhoto.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testair" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gaodingAppUIAutoTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gaodingAppUIAutoTest/testair.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.start" />
         <item itemvalue="Python.testMain (1)" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.testMain" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.testair" />
+        <item itemvalue="Python.testSwitchRatioAndSavePhoto" />
       </list>
     </recent_temporary>
   </component>
@@ -298,23 +952,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24664879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24240422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91219836" weight="0.46241134" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.34560907" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.497358" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9095112" weight="0.3134752" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.91215324" visible="true" weight="0.34751773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993395" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.087801605" side_tool="true" visible="true" weight="0.46241134" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.08784676" side_tool="true" visible="true" weight="0.34751773" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49867898" weight="0.32765958" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4993395" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -327,6 +982,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1563120279581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gaodingAppUIAutoTest" />
     <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1563117091832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testDemo" />
@@ -337,74 +1003,190 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testDemo.py" />
-    <entry file="file://$PROJECT_DIR$/testDemo1/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testDemo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testDemo1/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/testDemo/__init__.py" />
     <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/testDemo/text.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testDemo/testmainmanpy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/testDemo/text.txt" />
+    <entry file="file://$PROJECT_DIR$/testDemo/testmainmanpy" />
+    <entry file="file://$PROJECT_DIR$/testDemo/test.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/main.py" />
     <entry file="file://C:/uiTest/demo.air/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="484">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testDemo/test.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/poco/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/poco/poco.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="-3617" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/airtest/cli/info.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/airtest/cli/info.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/airtest/__main__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/airtest/core/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/Helper.py">
+    <entry file="file://C:/Python/Lib/site-packages/airtest/core/cv.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/poco/sdk/std/rpc/reactor.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="126">
+          <caret line="436" column="17" selection-start-line="436" selection-start-column="4" selection-end-line="436" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/testMain.py">
+    <entry file="file://C:/Python/Lib/site-packages/airtest/core/device.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="387">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/airtest/core/helper.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/testAddMacaicAndeSavePhoto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/poco/drivers/android/uiautomation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
           <folding>
-            <element signature="e#24#46#0" expanded="true" />
+            <element signature="e#40#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/conf/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/main.py">
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/log/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/airtest/core/helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="151">
+          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/testSwitchRatioAndSavePhoto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="218" column="12" selection-start-line="218" selection-start-column="12" selection-end-line="218" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/testCase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-788">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="88">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/testair.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/airtest/utils/compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/testAddMacaicAndeSavePhoto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/testCaseSuite.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/airtest/cli/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/conf/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/CommonTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/Helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaodingAppUIAutoTest/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
