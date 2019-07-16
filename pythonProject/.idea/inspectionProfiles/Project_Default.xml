@@ -9,6 +9,10 @@
           <option value="gaodingAppUIAutoTest.testair.testSwitchRatioAndSavePhoto" />
           <option value="gaodingAppUIAutoTest.testair.testAddMacaicAndSavePhoto" />
           <option value="gaodingAppUIAutoTest.testair.testair" />
+          <option value="gaodingAppUIAutoTest.start.CommonTestRunner" />
+          <option value="gaodingAppUIAutoTest.CommonTestRunner.Helper" />
+          <option value="gaodingAppUIAutoTest.utils.Utils.self" />
+          <option value="gaodingAppUIAutoTest.utils.Utils.execCMDAndReturnResult" />
         </list>
       </option>
     </inspection_tool>

@@ -5,8 +5,7 @@ from airtest.core.api import *
 auto_setup(__file__)
 from poco.drivers.android.uiautomation import AndroidUiautomationPoco
 poco = AndroidUiautomationPoco(use_airtest_input=True, screenshot_each_action=False)
-start_app("com.hlg.daydaytobusiness")
-sleep(5)
+
 poco(text="图片标记").click()
 poco.swipe([0.5,0.7],[0.5,0.3])
 poco.click([0.7,0.4])
