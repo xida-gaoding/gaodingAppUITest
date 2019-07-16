@@ -1,12 +1,10 @@
 #-*- coding: utf-8 -*
-from gaodingAppUIAutoTest.utils.Utils import *
-
 #Androiddevice=["Android://127.0.0.1:5037/172.16.12.131:5555"]#连接安卓设备127.0.0.1:5037固定写法172.16.81.115安卓真机的Ip
 #获取完整的安卓设备信息
-utils = Utils()
-def getFixedAndroidDevices():
-    fixedDevices = utils.getFixDevices("Android://127.0.0.1:5037/")
-    return fixedDevices
+#from gaodingAppUIAutoTest.utils.Utils import *
+import sys
+import os
+
 #获取air路径
 def get_air_path():
     return os.path.join(getProjectPath(),'air')

@@ -1,3 +1,5 @@
+import traceback
+
 from airtest.cli.runner import AirtestCase, run_script
 from argparse import *
 import shutil
@@ -5,6 +7,7 @@ from gaodingAppUIAutoTest.conf.config import *
 #from lib.log import *
 import logging
 import os
+import multiprocessing as mp
 from airtest.report.report import simple_report
 from airtest.core.api import *
 from gaodingAppUIAutoTest.utils.Utils import *
@@ -52,4 +55,5 @@ class CommonTestRunner( AirtestCase ):  # 继承AirtestCase类
                 output_file = get_report_path() + '\\' + airName.replace( '.air', utils.getCurrentTime() ) + '.html'  # 生成报告目录
                 simple_report( script, logpath=log, output=output_file )  # 生成报告的方法
                 logging.info( "案例执行成功" )
+
 

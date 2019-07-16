@@ -1,0 +1,14 @@
+{
+    "start": 1563288710.4074075,
+    "script": "air/testSwitchRatioAndSavePhoto.air",
+    "tests": {
+        "7366daaa": {
+            "status": 0,
+            "path": "air/testSwitchRatioAndSavePhoto.air\\log\\7366daaa\\log.html"
+        },
+        "GWY0217304000475": {
+            "status": 0,
+            "path": "air/testSwitchRatioAndSavePhoto.air\\log\\GWY0217304000475\\log.html"
+        }
+    }
+}
