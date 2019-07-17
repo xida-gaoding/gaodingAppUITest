@@ -82,9 +82,10 @@ def run_one_report(air, dev):
                 "zh"
             ]
             ret = subprocess.call(cmd, shell=True, cwd=os.getcwd())
+            log_path = os.path.join(log_dir, 'log.html')
             return {
                     'status': ret,
-                    'path': os.path.join(log_dir, 'log.html')
+                    'path': log_path
                     }
         else:
             print("Report build Failed. File not found in dir %s" % log)
@@ -110,9 +111,9 @@ def run_summary(data):
         env = Environment(loader=FileSystemLoader(os.getcwd()),
                           trim_blocks=True)
         html = env.get_template('report_tpl.html').render(data=summary)
-        with open("report/report.html", "w", encoding="utf-8") as f:
+        with open("report.html", "w", encoding="utf-8") as f:
             f.write(html)
- #       webbrowser.open('report.html')
+ #       webbrowser.open('report/report.html')
     except Exception as e:
         traceback.print_exc()
 

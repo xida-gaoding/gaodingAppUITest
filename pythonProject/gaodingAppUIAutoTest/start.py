@@ -5,17 +5,11 @@ import multiprocessing as mp
 from airtest.core.android.adb import ADB
 from MultiDeviceRunner import *
 
+from utils.Utils import Utils
+
 utils = Utils()
 def runMultiDevices():
     devices = [tmp[0] for tmp in ADB().devices()]
-    """"
-    TODO：
-    1. 遍历air路径，
-    2. 整合报告，通过air来命名或者多个整合成一个报告
-    3. 理清结构和整个流程，data.json,report_tpl.html,report.html,关系和作用
-    4. 源码分析，多设备多进程如何实现，task，
-    
-    """
     # 对获取的设备放入到字典中，取出字典的第一个值
     devices = [tmp[0] for tmp in ADB().devices()]
     airList = utils.getAirList()
