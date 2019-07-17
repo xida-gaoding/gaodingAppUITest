@@ -1,10 +1,11 @@
-from gaodingAppUIAutoTest.CommonTestRunner import *
-from gaodingAppUIAutoTest.conf.config import *
-from gaodingAppUIAutoTest.utils.Utils import *
+#from CommonTestRunner import *
+from conf.config import *
+from utils.Utils import *
 import multiprocessing as mp
 from airtest.core.android.adb import ADB
 from MultiDeviceRunner import *
 
+utils = Utils()
 def runMultiDevices():
     devices = [tmp[0] for tmp in ADB().devices()]
     """"
@@ -15,9 +16,14 @@ def runMultiDevices():
     4. 源码分析，多设备多进程如何实现，task，
     
     """
-    airs = ['air/testAddMacaicAndeSavePhoto.air','air/testSwitchRatioAndSavePhoto.air']
-    for air in airs:
-        run(devices, air, run_all=True)
+    # 对获取的设备放入到字典中，取出字典的第一个值
+    devices = [tmp[0] for tmp in ADB().devices()]
+    airList = utils.getAirList()
+    for air in airList:
+        # 获取到的air添加路径上一级路径，因为run.py把air用例放到工程目录下，而当前框架是把air用例统一放到air目录下
+        newair = "air\\" + air
+        print(newair)
+        run(devices, newair, run_all=True)
 
 if __name__ == '__main__':
     runMultiDevices()

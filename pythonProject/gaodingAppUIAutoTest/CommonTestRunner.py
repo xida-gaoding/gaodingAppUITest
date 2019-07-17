@@ -3,16 +3,16 @@ import traceback
 from airtest.cli.runner import AirtestCase, run_script
 from argparse import *
 import shutil
-from gaodingAppUIAutoTest.conf.config import *
+from conf.config import *
 #from lib.log import *
 import logging
 import os
 import multiprocessing as mp
 from airtest.report.report import simple_report
 from airtest.core.api import *
-from gaodingAppUIAutoTest.utils.Utils import *
-from gaodingAppUIAutoTest.conf.config import *
+from utils.Utils import *
 
+from pythonProject.gaodingAppUIAutoTest.utils.Utils import Utils
 
 auto_setup( __file__ )
 from poco.drivers.android.uiautomation import AndroidUiautomationPoco
@@ -51,9 +51,9 @@ class CommonTestRunner( AirtestCase ):  # 继承AirtestCase类
                 run_script( args, AirtestCase )  # 执行air脚本文件
             except AssertionError:
                 logging.info( "案例执行失败" )
-            finally:
-                output_file = get_report_path() + '\\' + airName.replace( '.air', utils.getCurrentTime() ) + '.html'  # 生成报告目录
-                simple_report( script, logpath=log, output=output_file )  # 生成报告的方法
-                logging.info( "案例执行成功" )
+#            finally:
+#                output_file = get_report_path() + '\\' + airName.replace( '.air', utils.getCurrentTime() ) + '.html'  # 生成报告目录
+#                simple_report( script, logpath=log, output=output_file )  # 生成报告的方法
+#                logging.info( "案例执行成功" )
 
 

@@ -1,0 +1,2 @@
+{"tag": "function", "depth": 1, "time": 1563354451.5081956, "data": {"name": "start_app", "call_args": {"package": "com.hlg.daydaytobusiness", "activity": null}, "start_time": 1563354450.981397, "ret": null, "end_time": 1563354451.5081956}}
+{"tag": "function", "depth": 1, "time": 1563354456.5082705, "data": {"name": "sleep", "call_args": {"secs": 5}, "start_time": 1563354451.5081956, "ret": null, "end_time": 1563354456.5082705}}

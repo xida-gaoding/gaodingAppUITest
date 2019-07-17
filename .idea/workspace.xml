@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39c5d3bb-0e29-4577-8c94-69a1463115a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gaodingAppTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/CommonTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/CommonTestRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/MultiDeviceRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/MultiDeviceRunner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/1563288684015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/1563288687421.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/1563288690887.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/1563288692914.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/1563288695064.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/1563288696973.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/1563288700334.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/1563288702422.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/1563288704987.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/1563288705358.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/7366daaa/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/1563288685480.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/1563288688759.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/1563288692092.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/1563288694282.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/1563288696494.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/1563288698472.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/1563288701966.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/1563288704186.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/1563288707239.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/1563288707488.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/log/GWY0217304000475/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/1563288715811.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/1563288718886.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/1563288727306.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/1563288729340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/1563288731477.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/1563288733497.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/1563288735520.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/1563288737628.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/1563288740228.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/1563288740659.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/7366daaa/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/1563288717092.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/1563288719962.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/1563288728444.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/1563288730505.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/1563288732693.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/1563288734950.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/1563288737122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/1563288739347.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/1563288742378.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/1563288742749.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/log/GWY0217304000475/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/1563277932362.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/1563277935329.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/1563277938661.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/1563277940671.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/1563277942895.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/1563277944847.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/1563277948300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/1563277950473.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/1563277953318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/1563277953685.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195205/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/1563278033730.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/1563278036585.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/1563278039875.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/1563278041995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/1563278044082.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/1563278046055.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/1563278049464.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/1563278051529.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/1563278054189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/1563278054466.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testAddMacaicAndeSavePhoto20190716195347/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/1563277957471.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/1563277959451.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/1563277967714.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/1563277969598.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/1563277971712.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/1563277973797.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/1563277975869.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/1563277977963.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/1563277980270.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/1563277980509.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195235/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/1563278058026.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/1563278059930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/1563278068254.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/1563278070231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/1563278072295.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/1563278074302.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/1563278076327.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/1563278078435.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/1563278080735.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/1563278081052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testSwitchRatioAndSavePhoto20190716195416/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testaaaLaunchApp20190716195159/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/testaaaLaunchApp20190716195341/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/1563278197613.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/1563278200629.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/1563278203932.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/1563278205983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/1563278208113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/1563278209997.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/1563278213398.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/1563278215513.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/1563278218169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/1563278218515.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195631/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716195733/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/1563278613145.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/1563278616079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/1563278619426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/1563278621517.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/1563278623682.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/1563278625595.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/1563278629008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/1563278631140.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/1563278633725.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/1563278634040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200327/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200428/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/1563278764820.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/1563278767746.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/1563278771065.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/1563278772996.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/1563278775030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/1563278777017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/1563278780354.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/1563278782365.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/1563278784940.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/1563278785202.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200601/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200659/1563278824402.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200659/1563278826998.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200659/1563278830290.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200659/1563278837473.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200659/1563278844804.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200659/1563278846760.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200659/1563278850287.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200659/1563278852386.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200659/1563278855074.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testAddMacaicAndeSavePhoto20190716200659/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/1563278222138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/1563278224220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/1563278232454.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/1563278234426.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/1563278236458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/1563278238604.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/1563278240665.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/1563278242738.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/1563278245074.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/1563278245368.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716195700/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/1563278637676.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/1563278639609.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/1563278647951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/1563278649886.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/1563278652063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/1563278654156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/1563278656215.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/1563278658256.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/1563278660604.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/1563278660930.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200355/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/1563278788929.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/1563278790842.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/1563278799188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/1563278801122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/1563278803208.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/1563278805287.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/1563278807304.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/1563278809412.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/1563278811868.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/1563278812151.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testSwitchRatioAndSavePhoto20190716200627/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testaaaLaunchApp20190716195626/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testaaaLaunchApp20190716195727/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testaaaLaunchApp20190716200321/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testaaaLaunchApp20190716200422/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testaaaLaunchApp20190716200555/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/GWY0217304000475/testaaaLaunchApp20190716200654/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testLogin.air/testLogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testAddMacaicAndeSavePhoto20190716195235.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testAddMacaicAndeSavePhoto20190716195416.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testAddMacaicAndeSavePhoto20190716195700.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testAddMacaicAndeSavePhoto20190716195734.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testAddMacaicAndeSavePhoto20190716200355.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testAddMacaicAndeSavePhoto20190716200438.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testAddMacaicAndeSavePhoto20190716200627.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testAddMacaicAndeSavePhoto20190716200741.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testSwitchRatioAndSavePhoto20190716195302.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testSwitchRatioAndSavePhoto20190716195442.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testSwitchRatioAndSavePhoto20190716195727.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testSwitchRatioAndSavePhoto20190716200422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testSwitchRatioAndSavePhoto20190716200653.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testaaaLaunchApp20190716195205.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testaaaLaunchApp20190716195347.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testaaaLaunchApp20190716195631.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testaaaLaunchApp20190716195733.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testaaaLaunchApp20190716200327.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testaaaLaunchApp20190716200428.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testaaaLaunchApp20190716200601.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report/testaaaLaunchApp20190716200659.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/utils/Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/utils/Utils.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/CommonTestRunner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="42" column="83" selection-start-line="42" selection-start-column="83" selection-end-line="42" selection-end-column="110" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/conf/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="53" />
+              <folding>
+                <element signature="e#191#201#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/MultiDeviceRunner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#32#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testaaaLaunchApp.air/testaaaLaunchApp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/testAddMacaicAndeSavePhoto.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python/Lib/subprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="860" selection-start-line="860" selection-end-line="860" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/testCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testLogin.air/testLogin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="45" column="58" selection-start-line="6" selection-end-line="45" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python/Lib/site-packages/airtest/core/android/adb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_report_path</find>
+      <find>jdon</find>
+      <find>get_log_dir</find>
+      <find>path</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>json</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/CommonTestRunner.py" />
+        <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/utils/Utils.py" />
+        <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py" />
+        <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/MultiDeviceRunner.py" />
+        <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/testCase.py" />
+        <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testLogin.air/testLogin.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="30" />
+    <option name="width" value="1945" />
+    <option name="height" value="1105" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gaodingAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gaodingAppTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gaodingAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gaodingAppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gaodingAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gaodingAppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gaodingAppUIAutoTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gaodingAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gaodingAppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gaodingAppUIAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="air" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gaodingAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gaodingAppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gaodingAppUIAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="air" type="462c0819:PsiDirectoryNode" />
+              <item name="testAddMacaicAndeSavePhoto.air" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gaodingAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gaodingAppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gaodingAppUIAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="air" type="462c0819:PsiDirectoryNode" />
+              <item name="testLogin.air" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gaodingAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gaodingAppTest" type="462c0819:PsiDirectoryNode" />
+              <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gaodingAppUIAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gaodingAppTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="C:/chromeDownload/multi-device-runner-master" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="gaodingAppTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39c5d3bb-0e29-4577-8c94-69a1463115a6" name="Default Changelist" comment="" />
+      <created>1563347549051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563347549051</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3348745" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32011747" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25403818" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Python/Lib/site-packages/conf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testSwitchRatioAndSavePhoto.air/testSwitchRatioAndSavePhoto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/poco/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4136">
+          <caret line="733" selection-start-line="733" selection-end-line="733" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/air/testAddMacaicAndeSavePhoto_air/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/airtest/report/report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="339" selection-start-line="339" selection-end-line="339" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/air/testAddMacaicAndeSavePhoto_air/log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/utils/Utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/log/7366daaa/air/testSwitchRatioAndSavePhoto20190717164526/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/conf/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="e#191#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/CommonTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="42" column="83" selection-start-line="42" selection-start-column="83" selection-end-line="42" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/airtest/core/android/adb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/MultiDeviceRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="860" selection-start-line="860" selection-end-line="860" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testaaaLaunchApp.air/testaaaLaunchApp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testAddMacaicAndeSavePhoto.air/testAddMacaicAndeSavePhoto.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#32#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/testCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testLogin.air/testLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="45" column="58" selection-start-line="6" selection-end-line="45" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

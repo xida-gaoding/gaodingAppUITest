@@ -1,14 +1,10 @@
 {
-    "start": 1563288710.4074075,
-    "script": "air/testSwitchRatioAndSavePhoto.air",
+    "start": 1563357739.3626099,
+    "script": "air\\testAddMacaicAndeSavePhoto.air",
     "tests": {
-        "7366daaa": {
+        "76UBBL422HJF": {
             "status": 0,
-            "path": "air/testSwitchRatioAndSavePhoto.air\\log\\7366daaa\\log.html"
-        },
-        "GWY0217304000475": {
-            "status": 0,
-            "path": "air/testSwitchRatioAndSavePhoto.air\\log\\GWY0217304000475\\log.html"
+            "path": "log\\76UBBL422HJF\\air\\testAddMacaicAndeSavePhoto20190717180026\\log.html"
         }
     }
 }

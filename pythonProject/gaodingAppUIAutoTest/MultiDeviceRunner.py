@@ -16,7 +16,7 @@ def run(devices, air, run_all=False):
             = False: 续着data.json的进度继续测试 (continue test with the progress in data.jason)
     """
     try:
-        results = load_jdon_data(air, run_all)
+        results = load_json_data(air, run_all)
         tasks = run_on_multi_device(devices, air, results, run_all)
         for task in tasks:
             status = task['process'].wait()
@@ -67,6 +67,7 @@ def run_one_report(air, dev):
     """
     try:
         log_dir = get_log_dir(dev, air)
+        print("runonereporlogdir:"+log_dir)
         log = os.path.join(log_dir, 'log.txt')
         if os.path.isfile(log):
             cmd = [
@@ -111,12 +112,12 @@ def run_summary(data):
         html = env.get_template('report_tpl.html').render(data=summary)
         with open("report/report.html", "w", encoding="utf-8") as f:
             f.write(html)
-        webbrowser.open('report.html')
+ #       webbrowser.open('report.html')
     except Exception as e:
         traceback.print_exc()
 
 
-def load_jdon_data(air, run_all):
+def load_json_data(air, run_all):
     """"
         加载进度
             如果data.json存在且run_all=False，加载进度
@@ -150,12 +151,20 @@ def clear_log_dir(air):
         shutil.rmtree(log)
 
 
-def get_log_dir(device, air):
+def get_log_dir1(device, air):
     """"
         在 test_blackjack.air/log/ 文件夹下创建每台设备的运行日志文件夹
         Create log folder based on device name under test_blackjack.air/log/
     """
     log_dir = os.path.join(air, 'log', device.replace(".", "_").replace(':', '_'))
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+    return log_dir
+
+current = time.strftime("%Y%m%d%H%M%S", time.localtime())
+# 在 log/air对应的用例文件夹下创建每台设备的运行日志文件夹
+def get_log_dir(device, air):
+    log_dir = os.path.join('log', device, air.replace(".air", str(current)))
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
     return log_dir

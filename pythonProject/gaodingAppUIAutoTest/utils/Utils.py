@@ -7,6 +7,7 @@ import sys
 from airtest.core.android.android import *
 from airtest.core.android.adb import *
 from conf.config import *
+from conf.config import *
 
 
 class Utils:
@@ -91,6 +92,10 @@ class Utils:
             os.makedirs(logPath)  # 创建日志目录
         return deviceLogPath
 
+    def getAirList(self):
+        airPath = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),'air')
+        airList = os.listdir(airPath)
+        return airList
 
 # utils = Utils()
 # deviceslist = utils.getDevicesList()
