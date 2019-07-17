@@ -12,7 +12,14 @@ def runMultiDevices():
     devices = [tmp[0] for tmp in ADB().devices()]
     # 对获取的设备放入到字典中，取出字典的第一个值
     devices = [tmp[0] for tmp in ADB().devices()]
+    if len(devices) == 0:
+        print('无可用设备！！！！')
+        return
     airList = utils.getAirList()
+
+    # for test
+    # airList = [airList[0]]
+
     for air in airList:
         # 获取到的air添加路径上一级路径，因为run.py把air用例放到工程目录下，而当前框架是把air用例统一放到air目录下
         newair = "air\\" + air

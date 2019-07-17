@@ -166,6 +166,7 @@ current = time.strftime("%Y%m%d%H%M%S", time.localtime())
 # 在 log/air对应的用例文件夹下创建每台设备的运行日志文件夹
 def get_log_dir(device, air):
     log_dir = os.path.join('log', device, air.replace(".air", str(current)))
+    log_dir = log_dir.replace("\\air","")
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
     return log_dir

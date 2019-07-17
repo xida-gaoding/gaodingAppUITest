@@ -1,10 +1,10 @@
 {
-    "start": 1563376135.7517397,
+    "start": 1563377981.7563193,
     "script": "air\\testSwitchRatioAndSavePhoto.air",
     "tests": {
         "7366daaa": {
             "status": 0,
-            "path": "log\\7366daaa\\air\\testSwitchRatioAndSavePhoto20190717230820\\log.html"
+            "path": "log\\7366daaa\\testSwitchRatioAndSavePhoto20190717233903\\log.html"
         }
     }
 }
