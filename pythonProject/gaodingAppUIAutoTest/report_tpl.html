@@ -238,12 +238,12 @@
               <div class="table-col long en">device</div>
               <div class="table-col ">--</div>
             </div>
-            {% for dev, item in data['tests'].items() %}
+            {% for item in data['tests'] %}
               <div class="table-row" path="{{item['path']}}">
                 <div class="table-col short">{{loop.index}}</div>
                 <div class="table-col short zh {{'success' if item['status']==0 else 'failed'}}">{{"成功" if item['status']==0 else "失败"}}</div>
                 <div class="table-col short en {{'success' if item['status']==0 else 'failed'}}">{{"sucess" if item['status']==0 else "failed"}}</div>
-                <div class="table-col long">{{dev}}</div>
+                <div class="table-col long">{{item['device']}}</div>
                 <div class="table-col detail zh">点击可查看详情</div>
                 <div class="table-col detail en">click to see detail</div>
               </div>

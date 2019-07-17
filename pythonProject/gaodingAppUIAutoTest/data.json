@@ -1,10 +1,16 @@
 {
-    "start": 1563377981.7563193,
-    "script": "air\\testSwitchRatioAndSavePhoto.air",
-    "tests": {
-        "7366daaa": {
+    "start": 1563382097.8138733,
+    "script": "RESULT",
+    "tests": [
+        {
             "status": 0,
-            "path": "log\\7366daaa\\testSwitchRatioAndSavePhoto20190717233903\\log.html"
+            "path": "log\\7366daaa\\testaaaLaunchApp20190718004817\\log.html",
+            "device": "7366daaa"
+        },
+        {
+            "status": 0,
+            "path": "log\\7366daaa\\testAddMacaicAndeSavePhoto20190718004817\\log.html",
+            "device": "7366daaa"
         }
-    }
+    ]
 }

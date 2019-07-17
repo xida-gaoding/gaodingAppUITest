@@ -9,20 +9,26 @@ from airtest.core.android.adb import ADB
 from jinja2 import Environment, FileSystemLoader
 
 
-def run(devices, air, run_all=False):
+def run(devices, airs, run_all=False):
     """"
         run_all
             = True: 从头开始完整测试 (run test fully) ;
             = False: 续着data.json的进度继续测试 (continue test with the progress in data.jason)
     """
     try:
-        results = load_json_data(air, run_all)
-        tasks = run_on_multi_device(devices, air, results, run_all)
-        for task in tasks:
-            status = task['process'].wait()
-            results['tests'][task['dev']] = run_one_report(task['air'], task['dev'])
-            results['tests'][task['dev']]['status'] = status
-            json.dump(results, open('data.json', "w"), indent=4)
+        results = load_json_data()
+        testsResult = []
+        for air in airs:
+            tasks = run_on_multi_device(devices, air, results, run_all)
+            for task in tasks:
+                status = task['process'].wait()
+                # 一行的原始数据
+                result = run_one_report(task['air'], task['dev'])
+                result['status'] = status
+                # 填充到列表
+                testsResult.append(result)
+        results['tests'] = testsResult
+        json.dump(results, open('data.json', "w"), indent=4)
         run_summary(results)
     except Exception as e:
         traceback.print_exc()
@@ -85,7 +91,8 @@ def run_one_report(air, dev):
             log_path = os.path.join(log_dir, 'log.html')
             return {
                     'status': ret,
-                    'path': log_path
+                    'path': log_path,
+                    'device': dev
                     }
         else:
             print("Report build Failed. File not found in dir %s" % log)
@@ -102,7 +109,7 @@ def run_summary(data):
     try:
         summary = {
             'time': "%.3f" % (time.time() - data['start']),
-            'success': [item['status'] for item in data['tests'].values()].count(0),
+            'success': [item['status'] for item in data['tests']].count(0),
             'count': len(data['tests'])
         }
         summary.update(data)
@@ -113,12 +120,12 @@ def run_summary(data):
         html = env.get_template('report_tpl.html').render(data=summary)
         with open("report.html", "w", encoding="utf-8") as f:
             f.write(html)
- #       webbrowser.open('report/report.html')
+        webbrowser.open('report.html')
     except Exception as e:
         traceback.print_exc()
 
 
-def load_json_data(air, run_all):
+def load_json_data():
     """"
         加载进度
             如果data.json存在且run_all=False，加载进度
@@ -127,6 +134,13 @@ def load_json_data(air, run_all):
             if data.json exists and run_all=False, loading progress in data.json
             else return an empty data
     """
+
+    return {
+        'start': time.time(),
+        'script': "RESULT",
+        'tests': []
+    }
+
     json_file = os.path.join(os.getcwd(), 'data.json')
     if (not run_all) and os.path.isfile(json_file):
         data = json.load(open(json_file))
@@ -143,6 +157,7 @@ def load_json_data(air, run_all):
 
 
 def clear_log_dir(air):
+    # TODO 这边清理路径不对，当前无效
     """"
         清理log文件夹 test_blackjack.air/log
         Remove folder test_blackjack.air/log

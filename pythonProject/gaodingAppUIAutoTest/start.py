@@ -18,13 +18,15 @@ def runMultiDevices():
     airList = utils.getAirList()
 
     # for test
-    # airList = [airList[0]]
+    airList = [airList[0],airList[1]]
 
+    newAirList = []
     for air in airList:
         # 获取到的air添加路径上一级路径，因为run.py把air用例放到工程目录下，而当前框架是把air用例统一放到air目录下
         newair = "air\\" + air
+        newAirList.append(newair)
         print(newair)
-        run(devices, newair, run_all=True)
+    run(devices, newAirList, run_all=True)
 
 if __name__ == '__main__':
     runMultiDevices()
