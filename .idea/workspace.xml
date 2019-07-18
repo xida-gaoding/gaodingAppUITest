@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report_tpl.html" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report_tpl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/MultiDeviceRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2163">
-              <caret line="111" column="64" selection-start-line="111" selection-start-column="64" selection-end-line="111" selection-end-column="64" />
+            <state relative-caret-position="181">
+              <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -43,22 +42,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python/Lib/site-packages/airtest/cli/info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2525">
+              <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report_tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="240" column="26" selection-start-line="240" selection-start-column="26" selection-end-line="240" selection-end-column="26" />
+            <state relative-caret-position="445">
+              <caret line="246" column="60" selection-start-line="246" selection-start-column="57" selection-end-line="246" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -72,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="226">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#32#57#0" expanded="true" />
               </folding>
@@ -100,17 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>get_report_path</find>
-      <find>jdon</find>
-      <find>get_log_dir</find>
-      <find>report.html</find>
-      <find>path</find>
-      <find>点击</find>
-      <find>log.html</find>
-      <find>report</find>
-      <find>screenshot</find>
-      <find>2</find>
-      <find>get_</find>
       <find>data.json</find>
       <find>clear_log_dir</find>
       <find>json</find>
@@ -119,8 +123,28 @@
       <find>结果</find>
       <find>table-col detail</find>
       <find>tpl</find>
-      <find>enum</find>
       <find>bro</find>
+      <find>RESULT</find>
+      <find>process</find>
+      <find>data</find>
+      <find>test</find>
+      <find>tests</find>
+      <find>'air': air</find>
+      <find>with open(pyfilepath, encoding=&quot;utf-8&quot;) as pyfile:</find>
+      <find>dev</find>
+      <find>enum</find>
+      <find>device</find>
+      <find>airName</find>
+      <find>table</find>
+      <find>width</find>
+      <find>--</find>
+      <find>table-col long</find>
+      <find>result</find>
+      <find>click</find>
+      <find>lon</find>
+      <find>short</find>
+      <find>long</find>
+      <find>air</find>
     </findStrings>
     <replaceStrings>
       <replace>json</replace>
@@ -140,15 +164,17 @@
         <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/testCase.py" />
         <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/air/testLogin.air/testLogin.py" />
         <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/data.json" />
-        <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/MultiDeviceRunner.py" />
         <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py" />
+        <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report.html" />
+        <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report_tpl.html" />
+        <option value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/MultiDeviceRunner.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="30" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+    <option name="width" value="1945" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -194,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report" />
+    <property name="last_opened_file_path" value="C:/chromeDownload/multi-device-runner-master" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -262,19 +288,19 @@
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2642008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21730515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993395" weight="0.04405286" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49867898" weight="0.38325992" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.830251" visible="true" weight="0.44640234" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4980185" visible="true" weight="0.33627018" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.830251" weight="0.17033774" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.169749" side_tool="true" visible="true" weight="0.44640234" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5019815" side_tool="true" weight="0.38325992" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -346,13 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="4" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python/Lib/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="860" selection-start-line="860" selection-end-line="860" />
         </state>
       </provider>
     </entry>
@@ -430,6 +449,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-234514117/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="2871" column="8" selection-start-line="2871" selection-start-column="8" selection-end-line="2871" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#32#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="853" selection-start-line="853" selection-end-line="853" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/airtest/cli/info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/CommonTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -442,37 +492,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2525">
+          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/report_tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="240" column="26" selection-start-line="240" selection-start-column="26" selection-end-line="240" selection-end-column="26" />
+        <state relative-caret-position="445">
+          <caret line="246" column="60" selection-start-line="246" selection-start-column="57" selection-end-line="246" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/MultiDeviceRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2163">
-          <caret line="111" column="64" selection-start-line="111" selection-start-column="64" selection-end-line="111" selection-end-column="64" />
+        <state relative-caret-position="181">
+          <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonProject/gaodingAppUIAutoTest/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#32#57#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -71,6 +71,7 @@ def run_one_report(air, dev):
         生成一个脚本的测试报告. 把log.txt 转成 log.html
         Build one test report for one air script
     """
+    airName = air.replace("air\\","").replace(".air","")
     try:
         log_dir = get_log_dir(dev, air)
         print("runonereporlogdir:"+log_dir)
@@ -92,13 +93,14 @@ def run_one_report(air, dev):
             return {
                     'status': ret,
                     'path': log_path,
-                    'device': dev
+                    'device': dev,
+                    'airName': airName
                     }
         else:
             print("Report build Failed. File not found in dir %s" % log)
     except Exception as e:
         traceback.print_exc()
-    return {'status': -1, 'device': dev, 'path': ''}
+    return {'status': -1, 'device': dev, 'path': '', 'airName':airName}
 
 
 def run_summary(data):
@@ -137,7 +139,7 @@ def load_json_data():
 
     return {
         'start': time.time(),
-        'script': "RESULT",
+        'script': "多设备多用例并行测试结果汇总",
         'tests': []
     }
 

@@ -1,16 +1,30 @@
 {
-    "start": 1563382097.8138733,
-    "script": "RESULT",
+    "start": 1563420751.5735698,
+    "script": "\u591a\u8bbe\u5907\u591a\u7528\u4f8b\u5e76\u884c\u6d4b\u8bd5\u7ed3\u679c\u6c47\u603b",
     "tests": [
         {
             "status": 0,
-            "path": "log\\7366daaa\\testaaaLaunchApp20190718004817\\log.html",
-            "device": "7366daaa"
+            "path": "log\\7366daaa\\testaaaLaunchApp20190718113231\\log.html",
+            "device": "7366daaa",
+            "airName": "testaaaLaunchApp"
         },
         {
             "status": 0,
-            "path": "log\\7366daaa\\testAddMacaicAndeSavePhoto20190718004817\\log.html",
-            "device": "7366daaa"
+            "path": "log\\76UBBL422HJF\\testaaaLaunchApp20190718113231\\log.html",
+            "device": "76UBBL422HJF",
+            "airName": "testaaaLaunchApp"
+        },
+        {
+            "status": 0,
+            "path": "log\\7366daaa\\testAddMacaicAndeSavePhoto20190718113231\\log.html",
+            "device": "7366daaa",
+            "airName": "testAddMacaicAndeSavePhoto"
+        },
+        {
+            "status": 0,
+            "path": "log\\76UBBL422HJF\\testAddMacaicAndeSavePhoto20190718113231\\log.html",
+            "device": "76UBBL422HJF",
+            "airName": "testAddMacaicAndeSavePhoto"
         }
     ]
 }

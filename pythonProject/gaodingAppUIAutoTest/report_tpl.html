@@ -5,7 +5,7 @@
     <link rel="shortcut icon" type="image/png" href="http://airtest.netease.com/static/img/icon/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-    <title>Airtest 多设备并行测试结果汇总</title>
+    <title>Airtest 多设备多用例并行测试结果汇总</title>
   </head>
   <style type="text/css">
     *{
@@ -236,7 +236,7 @@
               <div class="table-col short en">id</div>
               <div class="table-col short en">result</div>
               <div class="table-col long en">device</div>
-              <div class="table-col ">--</div>
+              <div class="table-col ">用例</div>
             </div>
             {% for item in data['tests'] %}
               <div class="table-row" path="{{item['path']}}">
@@ -244,8 +244,7 @@
                 <div class="table-col short zh {{'success' if item['status']==0 else 'failed'}}">{{"成功" if item['status']==0 else "失败"}}</div>
                 <div class="table-col short en {{'success' if item['status']==0 else 'failed'}}">{{"sucess" if item['status']==0 else "failed"}}</div>
                 <div class="table-col long">{{item['device']}}</div>
-                <div class="table-col detail zh">点击可查看详情</div>
-                <div class="table-col detail en">click to see detail</div>
+                <div class="table-col detail zh">{{item['airName']}}</div>
               </div>
             {% endfor %}
           </div>
